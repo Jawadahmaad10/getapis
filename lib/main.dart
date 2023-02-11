@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:rest_api/example_two.dart';
+import 'package:rest_api/getapi/example_five.dart';
+import 'package:rest_api/getapi/example_three.dart';
+import 'package:rest_api/getapi/example_two.dart';
+import 'package:rest_api/sigup.dart';
 //import 'package:rest_api/home_screen.dart';
 
 void main() {
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const ExampleTwo(),
+      home: const SignUpScreen(),
     );
   }
 }
